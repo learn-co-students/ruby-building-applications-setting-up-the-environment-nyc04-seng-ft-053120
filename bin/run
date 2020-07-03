@@ -8,6 +8,15 @@ lawn = Garden.new(name: 'Front Lawn')
 basil = Plant.new(name: 'Basil')
 basil.garden = lawn
 
+oregano = Plant.new(name: "Oregano")
+mint = Plant.new(name: "Mint")
+tomato = Plant.new(name: "Tomato")
+lavendar = Plant.new(name: "Lavendar")
+basil.garden = lawn
+mint.garden = lawn
+tomato.garden = lawn
+lavendar.garden = lawn
+
 cucumber = Plant.new(name: 'Cucumber')
 cucumber.garden = lawn
 
